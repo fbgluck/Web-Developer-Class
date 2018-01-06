@@ -4,27 +4,47 @@
       <title>Register</title>
   </head>
   <body>
-      <form>
-        First Name: <input type="text" name="firstname"/><br />
-        Last Name: <input type="text" name="lastname" /><br />
-        Email: <input type="email"  name="email" required/><br />
-        Password: <input type="password" min = "5" name="password" required /><br />
-        Birthday: <input type="date" name="birthday"/><br />
-        Gender:<br />
-          <input type="radio" name="gender" value="male"/>Male<br />
-          <input type="radio" name="gender" value="female"/>Female<br />
-          <input type="radio" name="gender" value="other"/>Other<br />
-          <br />
-          Pets:<br />
-          <input type="checkbox" name="cat"/>Cat<br />
-          <input type="checkbox" name="dog"/>Dog<br />
-          Cars:<br />
-          <select name = "cars">
-            <option value="Volvo" name="volvo">Volvo</option>
-            <option value="Audi" name="audi">Audi</option>
-          </select><br />
-        <input type="submit"  value="Register"/>
-        <input type="reset" />
-      </form>
+    <!-- Some Semantic HTML5 tags so that we can mark off specific sections
+    of our pages. Semantic tags mark off specific sections so that programs like
+    web crawlers can better identify what sections of the page they are
+    looking at -->
+    <header>
+      <h1>Register</h1>
+    </header>
+    <nav> <!-- One navigation element as a sample -->
+      <a href="./index.html">Home</a>
+    </nav>
+      <!-- Sample Form -->
+      <div> <!-- A block element used to divide content into named blocks -->
+        <form>
+          <!-- span is an inline element -->
+          <span>First Name:</span> <input type="text" name="firstname"/><br />
+          Last Name: <input type="text" name="lastname" /><br />
+          Email: <input type="email"  name="email" required/><br />
+          Password: <input type="password" min = "5" name="password" required /><br />
+          Birthday: <input type="date" name="birthday"/><br />
+          Gender:<br />
+            <input type="radio" name="gender" value="male"/>Male<br />
+            <input type="radio" name="gender" value="female"/>Female<br />
+            <input type="radio" name="gender" value="other"/>Other<br />
+            <br />
+            Pets:<br />
+            <input type="checkbox" name="cat"/>Cat<br />
+            <input type="checkbox" name="dog"/>Dog<br />
+            Cars:<br />
+            <select name = "cars">
+              <option value="Volvo" name="volvo">Volvo</option>
+              <option value="Audi" name="audi">Audi</option>
+            </select><br />
+          <input type="submit"  value="Register"/>
+          <input type="reset" />
+        </form>
+      </div>
+      <footer>
+        <!-- another sample HTML5 semantic tag -->
+        <p>
+          Website by Fredric Gluck
+        </p>
+      </footer>
   </body>
 </html>
