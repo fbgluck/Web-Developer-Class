@@ -1,3 +1,4 @@
+// Demonstrates methods that can be used with arrays
 const numbers =['One','Two','Three','Four','Five', 'Six'];
 // Replace an individual value in the array
 console.log("The length of the array is: " + `${numbers.length}`);
